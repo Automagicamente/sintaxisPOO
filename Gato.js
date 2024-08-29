@@ -1,14 +1,16 @@
 class Gato{
-    #nombre = "def";
+    nombre = "def";
 
     getNombre(){
-        return this.#nombre;
+        return this.nombre;
     }
     setNombre(nombre){
-        this.#nombre = nombre;
+        this.nombre = nombre;
+    }
+
+    jugarPC(){
+        
     }
 }
 
-const gato1 = new Gato();
-gato1.setNombre("Firulais");
-console.log(gato1.getNombre());
+module.exports = Gato;
